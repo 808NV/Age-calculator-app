@@ -57,7 +57,7 @@ h6 {
 }
 
 .result-btn {
-    background-image: url(/icon-arrow.svg);
+    background-image: url(icon-arrow.svg);
     background-color: var(--Purple);
     padding: 40px;
     border: none;
