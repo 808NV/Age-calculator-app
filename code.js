@@ -18,7 +18,7 @@ function calculate() {
     let month = date.getMonth() + 1;
     let year = date.getFullYear();
 
-    if (dayInput.value && monthInput.value && yearInput.value && validation === true) {
+    if (dayInput.value && monthInput.value && yearInput.value) {
         let birthDay = parseInt(dayInput.value);
         let birthMonth = parseInt(monthInput.value);
         let birthYear = parseInt(yearInput.value);
